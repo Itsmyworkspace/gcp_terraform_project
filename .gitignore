@@ -1,0 +1,18 @@
+# Ignore Terraform downloaded files
+**/.terraform/*
+
+# Ignore Terraform state
+*.tfstate
+*.tfstate.*
+
+# Ignore crash logs
+crash.log
+crash.*.log
+
+# Ignore local variable files that may contain secrets
+*.tfvars
+*.tfvars.json
+
+# Ignore local Terraform CLI configuration
+.terraformrc
+terraform.rc
